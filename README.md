@@ -18,6 +18,10 @@ different one in the past, so I created this package in order to prevent that fr
 
 ## Usage
 
+Add the following line to your `providers` array in `config/app.php`:
+
+`'Wdmtech\Enviricons\EnviriconsServiceProvider'`
+
 Publish the assets (the favicons themselves) to your application using:
 
 `php artisan asset:publish wdmtech/enviricons`
@@ -34,7 +38,7 @@ Or, you can publish the view to your application's views folder:
 
 `php artisan view:publish wdmtech/enviricons`
 
-You can then modify/include the view in any way you wish.
+You can then modify or include the view in any way you wish.
 
 ## Source .psd
 
