@@ -1,6 +1,6 @@
-[![Latest Stable Version](https://poser.pugx.org/wdmtech/enviricons/v/stable)](https://packagist.org/packages/wdmtech/enviricons) 
-[![Total Downloads](https://poser.pugx.org/wdmtech/enviricons/downloads)](https://packagist.org/packages/wdmtech/enviricons) 
-[![Latest Unstable Version](https://poser.pugx.org/wdmtech/enviricons/v/unstable)](https://packagist.org/packages/wdmtech/enviricons)
+[![Latest Stable Version](https://poser.pugx.org/wdmtech/enviricons/version)](https://packagist.org/packages/wdmtech/enviricons) 
+[![Latest Unstable Version](https://poser.pugx.org/wdmtech/enviricons/v/unstable)](//packagist.org/packages/wdmtech/enviricons) 
+[![Total Downloads](https://poser.pugx.org/wdmtech/enviricons/downloads)](https://packagist.org/packages/wdmtech/enviricons)
 [![License](https://poser.pugx.org/wdmtech/enviricons/license)](https://packagist.org/packages/wdmtech/enviricons)
 
 # Enviricons
