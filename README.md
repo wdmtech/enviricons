@@ -18,9 +18,13 @@ different one in the past, so I created this package in order to prevent that fr
 
 ## Usage
 
-Publish the assets (the contents of the `/public` folder to your application using
+Publish the assets (the favicons themselves) to your application using:
 
 `php artisan asset:publish wdmtech/enviricons`
+
+Publish the config `enviricons.php` file using:
+
+`php artisan config:publish wdmtech/enviricons`
 
 You may include the default view provided directly in your main blade template like this:
   
@@ -28,7 +32,9 @@ You may include the default view provided directly in your main blade template l
 
 Or, you can publish the view to your application's views folder:
 
-`php artisan view:publish`
+`php artisan view:publish wdmtech/enviricons`
+
+You can then modify/include the view in any way you wish.
 
 ## Source .psd
 
