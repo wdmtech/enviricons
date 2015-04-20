@@ -1,6 +1,6 @@
 {
     "name": "wdmtech/enviricons",
-    "description": "",
+    "description": "Environment-specific favicons for local, development and staging environments in Laravel",
     "authors": [
         {
             "name": "wdmtech",
@@ -15,7 +15,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Wdmtech\\Enfavicons\\": "src/"
+            "Wdmtech\\Enviricons\\": "src/"
         }
     },
     "minimum-stability": "stable"
