@@ -1,6 +1,7 @@
 {
     "name": "wdmtech/enviricons",
     "description": "Environment-specific favicons for local, development and staging environments in Laravel",
+    "keywords": ["laravel", "framework","environment","favicon"],
     "license": "MIT",
     "authors": [
         {
