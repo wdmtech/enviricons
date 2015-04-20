@@ -1,0 +1,22 @@
+{
+    "name": "wdmtech/enfavicons",
+    "description": "",
+    "authors": [
+        {
+            "name": "wdmtech",
+            "email": "willdavidmurray@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Wdmtech\\Enfavicons\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
