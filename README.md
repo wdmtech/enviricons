@@ -1,3 +1,8 @@
+[![Latest Stable Version](https://poser.pugx.org/wdmtech/enviricons/v/stable)](https://packagist.org/packages/wdmtech/enviricons) 
+[![Total Downloads](https://poser.pugx.org/wdmtech/enviricons/downloads)](https://packagist.org/packages/wdmtech/enviricons) 
+[![Latest Unstable Version](https://poser.pugx.org/wdmtech/enviricons/v/unstable)](https://packagist.org/packages/wdmtech/enviricons)
+[![License](https://poser.pugx.org/wdmtech/enviricons/license)](https://packagist.org/packages/wdmtech/enviricons)
+
 # Enviricons
 
 Environment-specific favicons for your local, development and staging application environments 
