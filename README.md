@@ -4,6 +4,8 @@
 [![Code Climate](https://codeclimate.com/github/wdmtech/enviricons/badges/gpa.svg)](https://codeclimate.com/github/wdmtech/enviricons)
 [![License](https://poser.pugx.org/wdmtech/enviricons/license)](https://packagist.org/packages/wdmtech/enviricons)
 
+![Demonstration screenshot](https://github.com/wdmtech/enviricons/blob/master/demo_screenshot.png)
+
 # Enviricons
 
 Environment-specific favicons for your local, development and staging application environments 
