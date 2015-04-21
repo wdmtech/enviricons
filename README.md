@@ -1,6 +1,7 @@
 [![Latest Stable Version](https://poser.pugx.org/wdmtech/enviricons/version)](https://packagist.org/packages/wdmtech/enviricons) 
 [![Latest Unstable Version](https://poser.pugx.org/wdmtech/enviricons/v/unstable)](//packagist.org/packages/wdmtech/enviricons) 
 [![Total Downloads](https://poser.pugx.org/wdmtech/enviricons/downloads)](https://packagist.org/packages/wdmtech/enviricons)
+[![Code Climate](https://codeclimate.com/github/wdmtech/enviricons/badges/gpa.svg)](https://codeclimate.com/github/wdmtech/enviricons)
 [![License](https://poser.pugx.org/wdmtech/enviricons/license)](https://packagist.org/packages/wdmtech/enviricons)
 
 # Enviricons
