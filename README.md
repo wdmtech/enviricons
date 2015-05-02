@@ -29,7 +29,7 @@ Publish the assets (the favicons themselves) to your application using:
 
 `php artisan asset:publish wdmtech/enviricons`
 
-Publish the config `enviricons.php` file using:
+Publish the `enviricons.php` config file using:
 
 `php artisan config:publish wdmtech/enviricons`
 
