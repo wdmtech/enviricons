@@ -43,7 +43,7 @@ Include the default view provided directly in your main blade template like this
 ```
 
 
-&hellipor optionally publish the view to your application's views folder using:
+&hellip;or optionally publish the view to your application's views folder using:
 
 ```BASH
 php artisan vendor:publish --tag=enviricons-optional-view --force
