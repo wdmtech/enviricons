@@ -18,6 +18,7 @@ class EnviriconsServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
+        // Make view available to app
         $this->loadViewsFrom(__DIR__.'/views', 'enviricons');
 
         // Publish configs
