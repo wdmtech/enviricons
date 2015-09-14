@@ -18,20 +18,22 @@ class EnviriconsServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
+        $this->loadViewsFrom(__DIR__.'/views', 'enviricons');
+
         // Publish configs
         $this->publishes([
             __DIR__.'/config/enviricons.php' => config_path('enviricons.php')
-        ], 'enviricons');
-
-        // Publish views
-        $this->publishes([
-            __DIR__.'/views/enviricons.blade.php' => base_path('resources/views/vendor/wdmtech/enviricons/enviricons.blade.php'),
         ], 'enviricons');
 
         // Publish assets
         $this->publishes([
             __DIR__.'/public/' => public_path('/vendor/wdmtech/enviricons'),
         ], 'enviricons');
+
+        // Publish (optional) view
+        $this->publishes([
+            __DIR__.'/views/enviricons.blade.php' => base_path('resources/views/vendor/wdmtech/enviricons/enviricons.blade.php'),
+        ], 'enviricons-optional-view');
 
     }
 
