@@ -6,42 +6,47 @@
 
 ![Demonstration screenshot](https://github.com/wdmtech/enviricons/blob/master/demo_screenshot.png)
 
-# Enviricons
+# Laravel 5 Enviricons
 
-Environment-specific favicons for your local, development and staging application environments 
-in Laravel.
+Environment-specific favicons for your local, development and staging application environments in Laravel 4.1, 4.2 and 5.x (use the laravel_4 branch for older versions)
 
 ## What does this do?
 
-This package adds various [favicons](http://wikipedia.org/wiki/Favicon) which will help you
-differentiate which application environment you are working on when you have several browser tabs open. 
+This package adds environment-specific [favicons](http://wikipedia.org/wiki/Favicon) which will help you differentiate which application environment you are working on when you have multiple browser tabs open for the same app. 
 
-I've made the mistake of working on one environment when I meant to work on a 
-different one in the past, so I created this package in order to prevent that from ever happening again! 
+I&rsquo;ve made the mistake of working on the wrong environment in the past &mdash; so I created this package in order to help prevent that from happening again! 
 
 ## Usage
 
 Add the following line to your `providers` array in `config/app.php`:
 
-`'Wdmtech\Enviricons\EnviriconsServiceProvider'`
+```PHP
+/*
+ * Third-party Service Providers
+ */
+...
+Wdmtech\Enviricons\EnviriconsServiceProvider::class,
+...
+```
 
-Publish the assets (the favicons themselves) to your application using:
+Publish the assets and config to your application using:
 
-`php artisan asset:publish wdmtech/enviricons`
+```BASH
+php artisan vendor:publish --tag=enviricons --force
+```
 
-Publish the `enviricons.php` config file using:
-
-`php artisan config:publish wdmtech/enviricons`
-
-You may include the default view provided directly in your main blade template like this:
+Include the default view provided directly in your main blade template like this:
   
 `@include('enviricons::enviricons')`
 
-Or, you can publish the view to your application's views folder:
 
-`php artisan view:publish wdmtech/enviricons`
+&hellipor optionally publish the view to your application's views folder using:
 
-You can then modify or include the view in any way you wish.
+```BASH
+php artisan vendor:publish --tag=enviricons-optional-view --force
+```
+
+You can then modify and include the view in any way you wish.
 
 ## Source .psd
 
