@@ -18,6 +18,10 @@ I&rsquo;ve made the mistake of working on the wrong environment in the past &mda
 
 ## Usage
 
+Require this package using composer:
+
+`composer require wdmtech/enviricons`
+
 Add the following line to your `providers` array in `config/app.php`:
 
 ```PHP
