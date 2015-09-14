@@ -1,16 +1,16 @@
 
 {{--Local--}}
-@if(App::environment() == Config::get('enviricons.environment.local', 'local'))
+@if(app()->environment() == config('enviricons.environment.local', 'local'))
 
     <link rel="icon" href="packages/wdmtech/enviricons/local/favicon.ico" type="image/x-icon">
 
 {{--Dev--}}
-@elseif(App::environment() == Config::get('enviricons.environment.dev', 'dev'))
+@elseif(app()->environment() == config('enviricons.environment.dev', 'dev'))
 
     <link rel="icon" href="packages/wdmtech/enviricons/dev/favicon.ico" type="image/x-icon">
 
 {{--staging--}}
-@elseif(App::environment() == Config::get('enviricons.environment.staging', 'staging'))
+@elseif(app()->environment() == config('enviricons.environment.staging', 'staging'))
 
     <link rel="icon" href="packages/wdmtech/enviricons/staging/favicon.ico" type="image/x-icon">
 
