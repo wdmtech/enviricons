@@ -20,17 +20,14 @@ I&rsquo;ve made the mistake of working on the wrong environment in the past &mda
 
 Require this package using composer:
 
-`composer require wdmtech/enviricons`
+```BASH
+composer require wdmtech/enviricons
+```
 
-Add the following line to your `providers` array in `config/app.php`:
+Next, add the following line to your `providers` array in `config/app.php`:
 
 ```PHP
-/*
- * Third-party Service Providers
- */
-...
 Wdmtech\Enviricons\EnviriconsServiceProvider::class,
-...
 ```
 
 Publish the assets and config to your application using:
@@ -41,7 +38,9 @@ php artisan vendor:publish --tag=enviricons --force
 
 Include the default view provided directly in your main blade template like this:
   
-`@include('enviricons::enviricons')`
+```PHP
+@include('enviricons::enviricons')
+```
 
 
 &hellipor optionally publish the view to your application's views folder using:
