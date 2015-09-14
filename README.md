@@ -8,7 +8,7 @@
 
 # Laravel 5 Enviricons
 
-Environment-specific favicons for your `local`, `development`, `staging` and `live` application environments in Laravel 4.1, 4.2 and 5.x (use the laravel_4 branch for older versions)
+Environment-specific favicons for your `local`, `development`, `staging` and `live` application environments in Laravel 4.1, 4.2 and 5.x (use the laravel_4_2 branch for older versions)
 
 ## What does this do?
 
