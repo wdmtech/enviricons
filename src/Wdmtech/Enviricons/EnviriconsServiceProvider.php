@@ -1,9 +1,11 @@
-<?php namespace Wdmtech\Enviricons;
+<?php
+
+namespace Wdmtech\Enviricons;
 
 use Illuminate\Support\ServiceProvider;
 
-class EnviriconsServiceProvider extends ServiceProvider {
-
+class EnviriconsServiceProvider extends ServiceProvider
+{
     /**
      * Indicates if loading of the provider is deferred.
      *
@@ -23,7 +25,7 @@ class EnviriconsServiceProvider extends ServiceProvider {
 
         // Publish configs
         $this->publishes([
-            __DIR__.'/config/enviricons.php' => config_path('enviricons.php')
+            __DIR__.'/config/enviricons.php' => config_path('enviricons.php'),
         ], 'enviricons');
 
         // Publish assets
@@ -35,7 +37,6 @@ class EnviriconsServiceProvider extends ServiceProvider {
         $this->publishes([
             __DIR__.'/views/enviricons.blade.php' => base_path('resources/views/vendor/wdmtech/enviricons/enviricons.blade.php'),
         ], 'enviricons-optional-view');
-
     }
 
     /**
@@ -57,5 +58,4 @@ class EnviriconsServiceProvider extends ServiceProvider {
     {
         //
     }
-
 }

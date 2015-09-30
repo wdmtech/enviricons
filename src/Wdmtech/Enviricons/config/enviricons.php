@@ -11,6 +11,6 @@ return [
         'dev'     => 'dev',     // ...dev
         'staging' => 'staging', // ...staging
         'live'    => 'live',    // ...live/default
-    ]
+    ],
 
 ];
