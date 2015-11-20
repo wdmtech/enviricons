@@ -7,10 +7,10 @@ return [
 
     'environments' => [
 
-        'local'   => 'local',   // Your local development environment name
-        'dev'     => 'dev',     // ...dev
-        'staging' => 'staging', // ...staging
-        'live'    => 'live',    // ...live/default
-    ],
+        'local'      => 'local',      // Your local development environment name
+        'dev'        => 'dev',        // ...dev
+        'staging'    => 'staging',    // ...staging
+        'production' => 'production', // ...production/default
+    ]
 
 ];

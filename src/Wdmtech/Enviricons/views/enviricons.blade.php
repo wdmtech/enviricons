@@ -14,7 +14,7 @@
 
     <link rel="icon" href="/vendor/wdmtech/enviricons/staging/favicon.ico" type="image/x-icon">
 
-{{-- Your default/live favicon  --}}
+{{-- Your production/default favicon  --}}
 @else
 
     <link rel="icon" href="/vendor/wdmtech/enviricons/favicon.ico" type="image/x-icon">
