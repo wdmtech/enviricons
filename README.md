@@ -3,7 +3,6 @@
 [![Total Downloads](https://poser.pugx.org/wdmtech/enviricons/downloads)](https://packagist.org/packages/wdmtech/enviricons)
 [![Code Climate](https://codeclimate.com/github/wdmtech/enviricons/badges/gpa.svg)](https://codeclimate.com/github/wdmtech/enviricons)
 [![License](https://poser.pugx.org/wdmtech/enviricons/license)](https://packagist.org/packages/wdmtech/enviricons)
-[![StyleCI](https://styleci.io/repos/34280012/shield)](https://styleci.io/repos/34280012)
 ![Demonstration screenshot](https://github.com/wdmtech/enviricons/blob/master/demo_screenshot.png)
 
 # Laravel 5 Enviricons
